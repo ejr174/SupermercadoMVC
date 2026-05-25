@@ -7,9 +7,7 @@ package com.supermercado.model;
  * Entidad principal del sistema. Representa a un empleado real del supermercado con todos sus datos relevantes.
  *
  * Esta clase es la estructura de datos de un empleado. 
- * No sabe nada de botones, pantallas ni lógica de negocio.
- * Solo guarda y entrega información.
- *
+ * No sabe nada de botones, pantallas ni lógica de negocio. Solo guarda y entrega información. 
  */
 public class Empleado {
 

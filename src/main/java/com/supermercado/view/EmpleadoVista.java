@@ -100,7 +100,7 @@ public class EmpleadoVista extends JFrame {
         comboCargo.setFont(new Font("Segoe UI", Font.PLAIN, 13));
 
         // --- Botón de búsqueda ---
-        btnBuscar = new JButton("🔍 Buscar");
+        btnBuscar = new JButton("Buscar");
         btnBuscar.setFont(new Font("Segoe UI", Font.BOLD, 13));
         btnBuscar.setBackground(new Color(30, 100, 200));
         btnBuscar.setForeground(Color.WHITE);
@@ -146,7 +146,7 @@ public class EmpleadoVista extends JFrame {
         panelSuperior.setBorder(BorderFactory.createEmptyBorder(15, 20, 15, 20));
 
         // Título de la aplicación
-        JLabel lblTitulo = new JLabel("📦 Sistema de Empleados — Supermercado MVC");
+        JLabel lblTitulo = new JLabel("?Sistema de Empleados - Supermercado MVC");
         lblTitulo.setFont(new Font("Segoe UI", Font.BOLD, 18));
         lblTitulo.setForeground(Color.WHITE);
         lblTitulo.setHorizontalAlignment(SwingConstants.LEFT);
@@ -235,7 +235,7 @@ public class EmpleadoVista extends JFrame {
 
         // Paso 4: actualizar etiqueta de resultados
         if (empleados.isEmpty()) {
-            lblResultados.setText("⚠ No se encontraron empleados con ese cargo.");
+            lblResultados.setText("No se encontraron empleados con ese cargo.");
         } else {
             lblResultados.setText("✔ " + empleados.size() +
                 " empleado(s) encontrado(s) con cargo: " +

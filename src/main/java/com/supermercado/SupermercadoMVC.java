@@ -8,11 +8,6 @@ import javax.swing.SwingUtilities;
 /**
  * CLASE: SupermercadoMVC (Main)
  * CAPA: Punto de entrada de la aplicación
- *
- *
- * ¿QUÉ ES SwingUtilities.invokeLater()?
- * Las interfaces gráficas en Java Swing tienen su propio hilo de ejecución llamado EDT (Event Dispatch Thread). 
- * Todas las operaciones sobre componentes gráficos DEBEN ejecutarse en ese hilo para evitar errores visuales o bloqueo
  */
 public class SupermercadoMVC {
 
